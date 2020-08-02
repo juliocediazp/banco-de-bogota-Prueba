@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="tbl_person")
 public class Person {
 	
-	
+	@Id
 	private String fullname;
 	private String birth;
 	private String person;
